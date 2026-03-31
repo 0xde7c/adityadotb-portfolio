@@ -12,7 +12,6 @@ export const siteData = {
   skills: [
     'TypeScript / Node.js',
     'Python',
-    'Solana / Ethereum',
     'Next.js / React',
     'Trading Systems',
     'Market Microstructure',

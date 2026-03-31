@@ -11,7 +11,7 @@ export async function Projects() {
         <h2 className="text-2xl font-bold mb-8">projects</h2>
 
         {/* Featured Projects Grid */}
-        <div className="grid grid-cols-2 gap-4 mb-12">
+        <div className="grid grid-cols-3 gap-4 mb-12">
           {siteData.featuredProjects.map((project, idx) => (
             <Link
               key={idx}
@@ -33,7 +33,10 @@ export async function Projects() {
           <div>
             <p className="text-sm text-gray-600 mb-4">other projects</p>
             <div className="space-y-3">
-              {repos.filter(r => r.name !== 'adityadotb-portfolio').map((repo) => (
+              {repos.filter(r => {
+                const featuredNames = siteData.featuredProjects.map(p => p.name);
+                return r.name !== 'adityadotb-portfolio' && !featuredNames.includes(r.name);
+              }).map((repo) => (
                 <div key={repo.id} className="border border-gray-300 p-3">
                   <div className="flex items-start justify-between gap-4 mb-1">
                     <Link
