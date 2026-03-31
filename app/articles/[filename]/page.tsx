@@ -4,8 +4,9 @@ export const metadata = {
   title: 'Article - Aditya',
 };
 
-export default function ArticlePage({ params }: { params: { filename: string } }) {
-  const decodedFilename = decodeURIComponent(params.filename);
+export default async function ArticlePage({ params }: { params: Promise<{ filename: string }> }) {
+  const { filename } = await params;
+  const decodedFilename = decodeURIComponent(filename);
   const articleName = decodedFilename.replace('.pdf', '');
 
   return (
