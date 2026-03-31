@@ -5,7 +5,7 @@ export const siteData = {
 
   hero: {
     heading: 'aditya',
-    subheading: 'full stack marketing / vibecoding',
+    subheading: 'full stack marketing / vibecoding / building things',
     description: 'Currently scaling algorithmic trading strategies on perp DEXs and prediction markets.',
   },
 
