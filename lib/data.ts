@@ -22,7 +22,7 @@ export const siteData = {
   contact: {
     email: 'adityadotb@gmail.com',
     github: 'https://github.com/0xde7c',
-    twitter: 'https://twitter.com/0xde7c',
+    twitter: 'https://x.com/0xde7c',
     linkedin: 'https://linkedin.com/in/adityadotb/',
   },
 
