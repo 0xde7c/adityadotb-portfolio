@@ -4,7 +4,7 @@ import { siteData } from '@/lib/data';
 export function Contact() {
   return (
     <section className="border-t border-black">
-      <div className="max-w-4xl mx-auto px-3 py-8 font-mono">
+      <div className="max-w-5xl mx-auto px-8 py-8 font-mono">
         <h2 className="text-xl font-bold mb-3">contact</h2>
         <div className="grid grid-cols-4 gap-2">
           <Link
