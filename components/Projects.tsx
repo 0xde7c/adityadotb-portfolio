@@ -35,7 +35,7 @@ export async function Projects() {
             <div className="space-y-3">
               {repos.filter(r => {
                 const featuredNames = siteData.featuredProjects.map(p => p.name);
-                return r.name !== 'adityadotb-portfolio' && !featuredNames.includes(r.name);
+                return r.name !== 'adityadotb-portfolio' && r.name !== 'job-scraper' && !featuredNames.includes(r.name);
               }).map((repo) => (
                 <div key={repo.id} className="border border-gray-300 p-3">
                   <div className="flex items-start justify-between gap-4 mb-1">
