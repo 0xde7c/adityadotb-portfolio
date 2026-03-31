@@ -7,7 +7,7 @@ export function Projects() {
       <div className="max-w-4xl mx-auto px-4 py-6 font-mono">
         <h2 className="text-xl font-bold mb-3">projects</h2>
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-4 gap-4">
           {siteData.featuredProjects.map((project, idx) => (
             <Link
               key={idx}
