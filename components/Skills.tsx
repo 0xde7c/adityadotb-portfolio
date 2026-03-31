@@ -5,7 +5,7 @@ export function Skills() {
     <section className="border-t border-black">
       <div className="max-w-5xl mx-auto px-8 py-8 font-mono">
         <h2 className="text-xl font-bold mb-3">skills</h2>
-        <div className="flex gap-6">
+        <div className="flex gap-2">
           <div className="flex-1 border-r border-black pr-4">
             {siteData.skills.slice(0, 3).map((skill, index) => (
               <div key={index} className="text-xs py-2">
