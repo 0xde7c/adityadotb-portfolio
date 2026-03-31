@@ -5,9 +5,9 @@ export function Projects() {
   return (
     <section className="border-t border-black">
       <div className="max-w-5xl mx-auto px-8 py-8 font-mono">
-        <h2 className="text-xl font-bold mb-3 text-center">projects</h2>
+        <h2 className="text-xl font-bold mb-3">projects</h2>
 
-        <div className="grid grid-cols-4 gap-4 justify-center">
+        <div className="grid grid-cols-4 gap-4">
           {siteData.featuredProjects.map((project, idx) => (
             <Link
               key={idx}
