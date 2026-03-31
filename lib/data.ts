@@ -5,8 +5,8 @@ export const siteData = {
 
   hero: {
     heading: 'aditya',
-    subheading: 'builder. trader. researcher.',
-    description: 'Currently scaling algorithmic trading strategies on Solana/Ethereum.',
+    subheading: 'full stack marketing / vibecoding',
+    description: 'Currently scaling algorithmic trading strategies on perp DEXs and prediction markets.',
   },
 
   skills: [
@@ -20,17 +20,44 @@ export const siteData = {
   ],
 
   contact: {
-    email: '0xde7c@gmail.com',
+    email: 'adityadotb@gmail.com',
     github: 'https://github.com/0xde7c',
     twitter: 'https://twitter.com/0xde7c',
-    linkedin: 'https://linkedin.com/in/adityadotb',
+    linkedin: 'https://linkedin.com/in/adityadotb/',
   },
 
   contentPortfolio: {
     title: 'Content Portfolio',
-    description: 'Articles on trading, market microstructure, and crypto research',
+    description: 'Articles on trading, defi and insights',
     articles: [
       // Articles will be added here later
     ],
   },
+
+  featuredProjects: [
+    {
+      name: 'lighter-bot',
+      description: 'ETH RSI scalper on Lighter DEX',
+      url: 'https://github.com/0xde7c/lighter-bot',
+      stars: 0,
+    },
+    {
+      name: 'retrodash',
+      description: 'Real-time trading dashboard',
+      url: 'https://github.com/0xde7c/retrodash',
+      stars: 0,
+    },
+    {
+      name: 'gold-rsi-alerts',
+      description: 'XAUUSD RSI alerts system',
+      url: 'https://github.com/0xde7c/gold-rsi-alerts',
+      stars: 0,
+    },
+    {
+      name: 'lighter-rsi-signals',
+      description: 'RSI signals on Lighter DEX',
+      url: 'https://github.com/0xde7c/lighter-rsi-signals',
+      stars: 0,
+    },
+  ],
 };
