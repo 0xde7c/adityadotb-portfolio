@@ -25,13 +25,34 @@ export const siteData = {
     linkedin: 'https://linkedin.com/in/adityadotb/',
   },
 
-  contentPortfolio: {
-    title: 'Content Portfolio',
-    description: 'Articles on trading, defi and insights',
-    articles: [
-      // Articles will be added here later
-    ],
-  },
+  articles: [
+    'A New Era Begins.pdf',
+    'An Introduction to BNB - Learn DeFi - Treehouse.pdf',
+    'Base SZN on Demex.pdf',
+    'Base, LPP, Pools and Demex Points.pdf',
+    'Everything You Need to Know about Avalanche and Staking AVAX.pdf',
+    'Lending and Borrowing On DeFi - Learn DeFi - Treehouse.pdf',
+    'LIBRA, BTC and Lottery Tickets.pdf',
+    'Moonstake Now Supports Staking of Solana (SOL)! - Moonstake.pdf',
+    'Moonstake Partners x Unstoppable Domains.pdf',
+    'OIO Investor Update August 2022.pdf',
+    'OIO Investor Update July 2022.pdf',
+    'OIO Investor Update June 2022.pdf',
+    'OIO Investor Update November 2022.pdf',
+    'OIO Investor Update October 2022.pdf',
+    'OIO Investor Update September 2022.pdf',
+    'The AI Wave_ The Next Chapter with ai16z, aixbt, luna and more.pdf',
+    'Trading Perps and DeFi on Demex.pdf',
+    'Understanding Tokenomics - Learn DeFi - Treehouse.pdf',
+    'Weekly Crypto News_ BlockFi, FTX Contagion, BNB Chain & More!.pdf',
+    'Weekly Crypto News_ FTX, Upcoming Cardano Stablecoin & More!.pdf',
+    'What are NFTs_ - Learn. DeFi - Treehouse.pdf',
+    'What are Stablecoins_ - Learn DeFi - Treehouse.pdf',
+    'What is DCA in Crypto_ - Learn DeFi - Treehouse.pdf',
+    'What is DeFi 2.0_ - Learn DeFi - Treehouse.pdf',
+    'What is OlympusDAO and (3,3)_ - Learn DeFi - Treehouse.pdf',
+    'What Is Staking_ - Learn DeFi - Treehouse.pdf',
+  ],
 
   featuredProjects: [
     {
