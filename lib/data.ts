@@ -6,7 +6,7 @@ export const siteData = {
   hero: {
     heading: 'aditya',
     subheading: 'full stack marketing / vibecoding / building things',
-    description: 'Currently scaling algorithmic trading strategies on perp DEXs and prediction markets.',
+    description: 'currently scaling algorithmic trading strategies on perp DEXs and prediction markets.',
   },
 
   skills: [
@@ -71,12 +71,6 @@ export const siteData = {
       name: 'gold-rsi-alerts',
       description: 'XAUUSD RSI alerts system',
       url: 'https://github.com/0xde7c/gold-rsi-alerts',
-      stars: 0,
-    },
-    {
-      name: 'lighter-rsi-signals',
-      description: 'RSI signals on Lighter DEX',
-      url: 'https://github.com/0xde7c/lighter-rsi-signals',
       stars: 0,
     },
   ],
