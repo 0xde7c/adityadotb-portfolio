@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-white text-black">
         <Header />
-        <main>{children}</main>
+        <main className="py-8">{children}</main>
         <Footer />
       </body>
     </html>
